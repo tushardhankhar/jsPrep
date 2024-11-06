@@ -11,3 +11,6 @@ USAGE :
 - Scroll Events: Scroll events can fire many times per second as a user scrolls down a page. Without throttling, handling each scroll event could lead to significant performance issues, especially if the handler performs complex calculations or manipulates the DOM. Throttling the scroll event handler ensures it only fires at defined intervals, reducing the load on the browser.
 - Window Resize Events: Similar to the scroll event, resize events can trigger many times as the user resizes the window. If the resize handler performs layout adjustments, throttling ensures it only executes periodically, making resizing feel smoother and improving performance.
 - Infinite Scrolling with API Requests: In an infinite scrolling setup, where more content loads as the user scrolls near the bottom, throttling the content-fetching function can help avoid multiple API requests being sent in quick succession, optimizing server load and response handling.
+
+
+CURRYING : Currying is a functional programming technique that transforms a function with multiple arguments into a series of nested functions, each taking one argument at a time.
